@@ -1,0 +1,16 @@
+linters:
+  disable-all: true
+  # Enable specific linter
+  # https://golangci-lint.run/usage/linters/#enabled-by-default
+  enable:
+    - gofmt
+    - gosec
+    - govet
+    - goimports
+    - misspell
+    - unconvert
+    - unparam
+    - goconst
+    - gocritic
+    - gochecknoinits
+    - gochecknoinits
